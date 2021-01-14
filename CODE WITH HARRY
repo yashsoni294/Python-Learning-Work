@@ -1,0 +1,80 @@
+
+import flask
+print("hello world")
+
+print("subscrbe now")
+
+print("yash bhai","app achhhe ho ")
+print("C:\"sub")
+print("Yash is \n a good boy\t1")
+help()
+print("hello")
+
+var1=40
+var4=50
+var2=5
+var3=36.7
+print(str(var1)+str(var4))
+print(100*"Hello World\n")
+print("Enter your number:")
+inpnum=input()
+print("You entered ",int(inpnum)+10)
+
+a=int(input(print("Enter 1st number")))
+b=int(input(print("Enter 2nd number")))
+c=a+b
+print("The sum of two number is:",c)
+
+mystr="Yash is a Good Boy"
+print(len(mystr))
+print(mystr[::5999])
+print(mystr[0:100])
+print(mystr[::-2])
+print(mystr.upper())
+print(mystr.lower())
+print(mystr.upper())
+print(type(mystr))
+print(mystr.isalnum())
+print(mystr.isalpha())
+print(mystr.endswith("Boy"))
+print(mystr.count("B"))
+print(mystr.capitalize())
+print(mystr.find("Good"))
+print(mystr.upper())
+print(mystr.lower())
+print(mystr.replace("Good","bad"))
+
+grocery=["Harpic","vim bar","deodrant","Bhindi","Lollypop",56]
+print(grocery[4])
+number=[5,15,13,88]
+number.sort()
+number.reverse()
+print(number[::])
+print(max(number))
+number.append(12)
+number.insert(0,45)
+ 
+number.remove(88)
+number.pop(1)
+print(number)
+tp=(1,2,10,20,40)
+print(tp)
+a=5
+b=10
+a,b=b,a
+print(a,b)
+d1={}
+print(type(d1))
+d2={"Yash":"Soni","Ajay":"Jdhav","Deepesh":"Gami","Anurag":"Kashyap","Tanmay":{"B":"Egg"
+        ,"L":"Roti","D":"None Veg"}}
+d2["Ritesh"]="Ahirwar"
+d2["Deepak"]="Patidar"
+print(d2)
+del d2["Anurag"]
+print(d2)
+d3=d2.copy()
+del d3["Yash"]
+print(d2)
+d2.update({"Shubham":"Yadav"})
+print(d2)
+
