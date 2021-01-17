@@ -1,3 +1,41 @@
+
+list1=[["Yash","soni"],["Ajay","jadhav"],["Ritesh","ahirwal"],["Deepesh","gami"],["Anurag","kashyap"]]
+#for a,b in list1:
+    #print(a,b)
+d1=dict(list1)
+#print(d1)
+for a,b in d1.items():
+    print(a,b)
+
+list=["Yash",45,3,6,"Soni",1,1000]
+for a in list:
+
+    if  str(a).isnumeric() and a>=6:
+        print(a)
+
+
+a=0
+while a<=125:
+    print(a)
+    a=a+1
+"""
+"""
+a=0
+while (True):
+    if a+1<5:
+        a=a+1
+        continue
+    print(a+1)
+    if a==45:
+        break
+    a=a+1
+
+while(True):
+    a=int(input("Enter a number :"))
+    if a>=100:
+        print("win")
+        break
+        """
 """"
 import flask
 print("hello world")
